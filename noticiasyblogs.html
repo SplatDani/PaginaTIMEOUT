@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Noticias y Blog</h2>
+        <div class="news-blog">
+            <div class="news-blog-item">
+                <h3>Amistoso en Sede en Conchalí</h3>
+                <p>Hoy fue un excelente encuentro con los chicos de @clubnsn, que nos recibieron muy bien y se jugaron muy buenos partidos en conjunto</p>
+                <a href="https://www.instagram.com/p/C5JoEuYO1Lo/?img_index=1" class="read-more">Leer más</a>
+            </div>
+            <div class="news-blog-item">
+                <h3>Amistoso con @asoc_tdm_independencia</h3>
+                <p>Hoy vivimos un día de amistoso muy grato junto nuestros amigos de Independencia</p>
+                <a href="https://www.instagram.com/p/C44RBdrNf-G/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" class="read-more">Leer más</a>
+            </div>
+            <div class="news-blog-item">
+                <h3>Técnicas Avanzadas de Golpe</h3>
+                <p>En este artículo, exploramos algunas técnicas avanzadas de golpe en el tenis de mesa y cómo puedes mejorar tu juego aplicándolas.</p>
+                <a href="https://pingsunday.com/es/table-tennis-advanced-techniques-using-wrist/" class="read-more">Leer más</a>
+            </div>
+            <div class="news-blog-item">
+                <h3>Consejos para mejorar en el tenis de mesa</h3>
+                <p>Descubre algunos consejos prácticos para mejorar tu juego en el tenis de mesa y cómo puedes ser más efectivo en la mesa.</p>
+                <a href="https://www.bushido.cl/10-consejos-para-mejorar-en-el-tenis-de-mesa/" class="read-more">Leer más</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+    <div class="carousel">
+        <div><img src="imagenes/1.jpg" alt="Imagen 1"></div>
+        <div><img src="imagenes/2.jpg" alt="Imagen 2"></div>
+        <div><img src="imagenes/3.jpg" alt="Imagen 3"></div>
+        <div><img src="imagenes/4.jpg" alt="Imagen 3"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.carousel').slick({
+                dots: true,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                adaptiveHeight: true
+            });
+        });
+    </script>
+
+    <a href="index.html" class="return-btn">Volver</a>
+
+</body>
+</html>
+
